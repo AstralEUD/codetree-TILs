@@ -6,7 +6,7 @@ int main() {
     if (a < 5) {
         printf("%d\ntiny",a*a);
     } else {
-        printf("%d",a);
+        printf("%d",a*a);
     }
     return 0;
 }
