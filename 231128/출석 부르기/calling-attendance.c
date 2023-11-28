@@ -7,8 +7,10 @@ int main() {
         printf("John");
     } else  if (a==2) {
         printf("Tom");
-    } else {
+    } else if (a==3) {
         printf("Paul");
+    } else {
+        printf("Vacancy")
     }
     return 0;
 }
