@@ -10,7 +10,7 @@ int main() {
     } else if (a==3) {
         printf("Paul");
     } else {
-        printf("Vacancy")
+        printf("Vacancy");
     }
     return 0;
 }
