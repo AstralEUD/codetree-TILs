@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    if (a%2 == 0) {
+    if (a%2 == 1) {
         a+=3;
     }
 
