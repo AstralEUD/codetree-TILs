@@ -5,6 +5,8 @@ int main() {
     scanf("%d",&a);
     if (a>=100) {
         printf("vapor");
+    } else if (a<0) {
+        printf("ice");
     } else {
         printf("water");
     }
