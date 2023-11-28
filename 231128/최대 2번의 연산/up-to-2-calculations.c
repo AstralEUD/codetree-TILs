@@ -9,12 +9,6 @@ int main() {
         a++;
         a/=2;
     }
-    if ((a%2) == 0) {
-        a/=2;
-    } else {
-        a++;
-        a/=2;
-    }
     printf("%d",a);
     return 0;
 }
