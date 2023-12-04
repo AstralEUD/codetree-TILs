@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int arr[100] = {0};
+long long int arr[100] = {0};
 
-int suwol(int n) {
-    int i, t , cnt, v, q=0;
+long long int suwol(long long int n) {
+    long long int i, t , cnt, v, q=0;
     i=0; v=n-1;cnt=0;
     if((n==0) || (n==1)) {
         arr[n] = 1;
@@ -20,11 +20,11 @@ int suwol(int n) {
 }
 
 int main() {
-    int n, i, t;
-    scanf("%d",&n);
+    long long int n, i, t;
+    scanf("%lld",&n);
     for (i=0; i<=n; i++) {
         t = suwol(i);
     }
-    printf("%d",t);
+    printf("%lld",t);
     return 0;
 }
