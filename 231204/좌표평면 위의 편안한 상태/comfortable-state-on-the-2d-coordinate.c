@@ -11,16 +11,16 @@ int main() {
         for (v=1; v<=n; v++) {
             for (z=1; z<=n; z++) {
                 i=0;
-                if (arr[v][z+1]) {
+                if (arr[v][z+1] == 1) {
                     i++;
                 } 
-                if (arr[v][z-1]) {
+                if (arr[v][z-1] == 1) {
                     i++;
                 }
-                if (arr[v+1][z]) {
+                if (arr[v+1][z] == 1) {
                     i++;
                 }
-                if (arr[v-1][z]) {
+                if (arr[v-1][z] == 1) {
                     i++;
                 }
                 if (i==3) {
